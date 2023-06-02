@@ -2,9 +2,7 @@ import pregame
 
 def logic():
     
-    # Pre-Game
-    pregame.posicionarBarcosBot()
+    # Pre-Game (Posicionamento dos barcos)
+    pregame.run()
 
-    # Mid-Game
-
-    # End
+logic()
