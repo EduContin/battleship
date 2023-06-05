@@ -1,8 +1,11 @@
 import pregame
+import game
 
 def logic():
     
-    # Pre-Game (Posicionamento dos barcos)
-    pregame.run()
+    # Pre-Game
+    pregame.posicionarBarcosBot()
+    pregame.posicionarBarcosPlayer()
 
-logic()
+    # Game
+    game()

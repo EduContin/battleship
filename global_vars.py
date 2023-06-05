@@ -17,6 +17,15 @@ mapaBot = [
   ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
 ]
 
+# Mapa mostrnado erros/acertos dos tiros (sem revalar os barcos)
+mapaBotDisplay = [
+  ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
+  ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
+  ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
+  ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
+  ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
+]
+
 # Siglas dos barcos
 destroier = "DE"
 submarino = "SU"
