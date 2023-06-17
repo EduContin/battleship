@@ -131,7 +131,7 @@ SEU MAPA:
                 while True:
                         anchorY = int(input(f"Digite a linha de 0 a 4: ")) # Posição Y
 
-                        if anchorY >= 0 and anchorY <= 9:
+                        if anchorY >= 0 and anchorY <= 4:
                             break
                         else:
                             print("Posição inválida.")
@@ -139,7 +139,7 @@ SEU MAPA:
                 while True:
                     anchorX = int(input(f"Digite a coluna de 0 a {10 - tamanho}: ")) # Posicão X
 
-                    if anchorX >= 0 and anchorX <= 9:
+                    if anchorX >= 0 and anchorX <= (10 - tamanho):
                         break
                     else:
                             print("Posição inválida.")

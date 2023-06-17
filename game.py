@@ -96,7 +96,7 @@ for i in range(0,101):
                     if jogadaX >= 0 and jogadaX <= 9:
                         break
 
-                if var.mapaBot[jogadaY][jogadaX] != "X " and var.mapaBot[jogadaY][jogadaX] != "X ":
+                if var.mapaBot[jogadaY][jogadaX] != "O " and var.mapaBot[jogadaY][jogadaX] != "X ":
                     break
 
         if var.mapaBot[jogadaY][jogadaX] != "  ":
@@ -141,7 +141,7 @@ for i in range(0,101):
                 jogadaY = random.randint(0,4)
                 jogadaX = random.randint(0,9)
 
-                if var.mapaPlayer[jogadaY][jogadaX] != "X " and var.mapaPlayer[jogadaY][jogadaX] != "X ":
+                if var.mapaPlayer[jogadaY][jogadaX] != "O " and var.mapaPlayer[jogadaY][jogadaX] != "X ":
                     break
 
         if var.mapaPlayer[jogadaY][jogadaX] != "  ":
